@@ -9,10 +9,10 @@ function App() {
   return (
     <>
       <div className="flex justify-center ">
-        <div className="flex w-[80%] items-center justify-between">
-          <h1 className="text-3xl font-bold underline">Logo</h1>
+        <div className="flex w-[80%] items-center justify-between m-2">
+          <h1 className="text-3xl font-bold ">LOGO</h1>
           <h3>About me</h3>
-          <h3>Exoeriences</h3>
+          <h3>Experiences</h3>
           <h3>Skills</h3>
           <h3>Projects</h3>
           <h3>Contact me</h3>
