@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import Card from "./components/Card";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,6 +20,7 @@ function App() {
           <button className="px-5 py-2 bg-slate-400">button</button>
         </div>
       </div>
+      <Card></Card>
     </>
   );
 }
