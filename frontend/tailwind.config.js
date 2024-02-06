@@ -6,6 +6,9 @@ export default {
       backgroundImage: {
         "mesh-gradient": 'url("./images/mesh-gradient.png")',
       },
+      fontFamily: {
+        kanit: ["Kanit", "sans-serif"],
+      },
     },
   },
   plugins: [],
