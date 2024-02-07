@@ -6,6 +6,10 @@ export default {
       backgroundImage: {
         "mesh-gradient": 'url("./images/mesh-gradient.png")',
       },
+      colors: {
+        "custom-orange-1": "#FFCC49",
+        "custom-orange-2": "#FFAD61",
+      },
       fontFamily: {
         kanit: ["Kanit", "sans-serif"],
       },
