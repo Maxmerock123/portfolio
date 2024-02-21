@@ -104,7 +104,14 @@ function App() {
         </div>
 
         {/* Project Section */}
-        <ProjectCard />
+        <div className="flex items-center justify-center ">
+          <div className="flex flex-wrap justify-center w-[50%] gap-5 m-10 text-white flex-around">
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+          </div>
+        </div>
       </body>
     </>
   );
