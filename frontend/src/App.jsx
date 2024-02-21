@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import SkillCard from "./components/SkillCard";
+import ProjectCard from "./components/ProjectCard";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -91,8 +92,19 @@ function App() {
               <SkillCard />
               <SkillCard />
             </div>
+
+            <div className="flex gap-5 m-5 flex-around">
+              <SkillCard />
+              <SkillCard />
+              <SkillCard />
+              <SkillCard />
+              <SkillCard />
+            </div>
           </div>
         </div>
+
+        {/* Project Section */}
+        <ProjectCard />
       </body>
     </>
   );
