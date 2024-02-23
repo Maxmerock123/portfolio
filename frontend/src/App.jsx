@@ -17,11 +17,13 @@ function App() {
         <div className="flex justify-center ">
           <div className="flex w-[80%] items-center justify-between m-2 text-white mt-5">
             <h1 className="text-3xl font-bold ">LOGO</h1>
-            <h3>About me</h3>
-            <h3>Experiences</h3>
-            <h3>Skills</h3>
-            <h3>Projects</h3>
-            <h3>Contact me</h3>
+            <div className="flex gap-5">
+              <h3>About me</h3>
+              <h3>Experiences</h3>
+              <h3>Skills</h3>
+              <h3>Projects</h3>
+              <h3>Contact me</h3>
+            </div>
             <button className="px-5 py-2 bg-slate-400 rounded-xl ">
               button
             </button>
@@ -30,20 +32,18 @@ function App() {
 
         {/* Profile Section */}
         <div className="flex flex-row flex-wrap items-center justify-around text-white m-28">
-          <div className="max-w-[400px] max-h-[100px]flex flex-col justify-center items-center p-[5vh]  bg-gray-400 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20">
-            <p className="text-3xl font-bold text-transparent bg-gradient-to-r from-custom-orange-1 to-custom-orange-2 bg-clip-text">
+          <div className="max-w-[500px] max-h-[300px]flex flex-col justify-center items-center p-[5vh]  bg-gray-400 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20">
+            <p className="flex justify-center text-3xl font-bold text-transparent bg-gradient-to-r from-custom-orange-1 to-custom-orange-2 bg-clip-text">
               Ratchatorn Makmool
             </p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+              Eu consequat amet exercitation enim consequat ea nulla.
             </p>
             <div className="flex justify-around m-2">
               <button className="px-5 py-2 rounded-xl bg-slate-400">
-                button
-              </button>
-              <button className="px-5 py-2 rounded-xl bg-slate-400">
-                button
+                View Resume
               </button>
             </div>
           </div>
@@ -66,11 +66,11 @@ function App() {
 
         {/* Dev Skill Section */}
         <div className="flex flex-row flex-wrap items-center justify-around text-white m-28">
-          <div className="w-[750px] max-h-[500px] flex flex-col justify-center items-center p-[5vh]  bg-gray-400 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20">
+          <div className="flex flex-col justify-center items-center p-[5vh]  bg-gray-400 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20">
             <p className="m-5 text-3xl font-bold text-transparent bg-gradient-to-r from-custom-orange-1 to-custom-orange-2 bg-clip-text">
-              Dev Skills
+              Development Skills
             </p>
-            <div className="flex gap-5 m-5 flex-around">
+            <div className="flex gap-10 m-5 flex-around">
               <SkillCard />
               <SkillCard />
               <SkillCard />
@@ -78,7 +78,7 @@ function App() {
               <SkillCard />
             </div>
 
-            <div className="flex gap-5 m-5 flex-around">
+            <div className="flex gap-10 m-5 flex-around">
               <SkillCard />
               <SkillCard />
               <SkillCard />
