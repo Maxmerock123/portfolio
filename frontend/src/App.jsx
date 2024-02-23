@@ -28,7 +28,7 @@ function App() {
 
         {/* Profile Section */}
         <div className="flex flex-row flex-wrap items-center justify-around text-white m-28">
-          <div className="max-w-[500px] max-h-[300px]flex flex-col justify-center items-center p-[5vh]  bg-gray-400 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20">
+          <div className="max-w-[500px] max-h-[300px]flex flex-col justify-center items-center p-[5vh]  bg-stone-100 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20">
             <p className="flex justify-center text-3xl font-bold text-transparent bg-gradient-to-r from-custom-orange-1 to-custom-orange-2 bg-clip-text">
               Ratchatorn Makmool
             </p>
@@ -62,11 +62,11 @@ function App() {
 
         {/* Dev Skill Section */}
         <div className="flex flex-row flex-wrap items-center justify-around text-white m-28">
-          <div className="flex flex-col justify-center items-center p-[5vh]  bg-gray-400 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20">
+          <div className="flex flex-col justify-center items-center px-[100px]  bg-stone-400 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20">
             <p className="m-5 text-3xl font-bold text-transparent bg-gradient-to-r from-custom-orange-1 to-custom-orange-2 bg-clip-text">
               Development Skills
             </p>
-            <div className="flex gap-10 m-5 flex-around">
+            <div className="flex flex-wrap items-center justify-around gap-10 m-5 flex-around">
               <SkillCard />
               <SkillCard />
               <SkillCard />
@@ -74,7 +74,7 @@ function App() {
               <SkillCard />
             </div>
 
-            <div className="flex gap-10 m-5 flex-around">
+            <div className="flex flex-wrap items-center justify-around gap-10 m-5 flex-around">
               <SkillCard />
               <SkillCard />
               <SkillCard />
@@ -100,7 +100,7 @@ function App() {
         </div>
 
         {/* Footer */}
-        <div className="text-white w-[100%] h-[500px] flex gap-10 justify-center items-center p-[5vh]  bg-gray-400 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20">
+        <div className="text-white w-[100%] h-[300px] flex gap-10 justify-center items-center  bg-stone-100 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20">
           <div className="w-[50vh]">
             <p className="text-3xl font-bold text-transparent bg-gradient-to-r from-custom-orange-1 to-custom-orange-2 bg-clip-text">
               Contact me
