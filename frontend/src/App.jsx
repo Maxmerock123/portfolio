@@ -103,8 +103,24 @@ function App() {
         </div>
 
         {/* Footer */}
-        <div className="w-[100%] h-[500px] flex flex-col justify-center items-center p-[5vh]  bg-gray-400 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20">
-          reader
+        <div className="text-white w-[100%] h-[500px] flex gap-10 justify-center items-center p-[5vh]  bg-gray-400 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20">
+          <div className="w-[50vh]">
+            <p className="text-3xl font-bold text-transparent bg-gradient-to-r from-custom-orange-1 to-custom-orange-2 bg-clip-text">
+              Contact me
+            </p>
+            <p>Enim officia laboris amet cillum nulla adipisicing.</p>
+            <p>
+              {" "}
+              Ipsum amet cillum et et.Esse culpa quis qui sunt labore laborum
+              cillum nulla tempor Lorem deserunt incididunt nisi minim.
+            </p>
+          </div>
+          <div className="flex flex-col gap-5">
+            <h3>Form</h3>
+            <input></input>
+            <input></input>
+            <input></input>
+          </div>
         </div>
       </body>
     </>
