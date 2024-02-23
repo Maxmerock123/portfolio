@@ -11,23 +11,19 @@ function App() {
 
   return (
     <>
-      {/* Header + Navbar */}
-      {/* Default height == "5090px" */}
       <body className="bg-cover bg-stone-900 h-[100%] font-kanit">
-        <div className="flex justify-center ">
-          <div className="flex w-[80%] items-center justify-between m-2 text-white mt-5">
-            <h1 className="text-3xl font-bold ">LOGO</h1>
-            <div className="flex gap-5">
-              <h3>About me</h3>
-              <h3>Experiences</h3>
-              <h3>Skills</h3>
-              <h3>Projects</h3>
-              <h3>Contact me</h3>
-            </div>
-            <button className="px-5 py-2 bg-stone-400 rounded-xl ">
-              button
-            </button>
+        {/* Header + Navbar */}
+        {/* Default height == "5090px" */}
+        <div className="sticky top-0 z-10 flex items-center justify-between px-5 py-2 text-white bg-stone-700">
+          <h1 className="text-3xl font-bold">LOGO</h1>
+          <div className="flex gap-5">
+            <h3>About me</h3>
+            <h3>Experiences</h3>
+            <h3>Skills</h3>
+            <h3>Projects</h3>
+            <h3>Contact me</h3>
           </div>
+          <button className="px-5 py-2 bg-stone-400 rounded-xl">button</button>
         </div>
 
         {/* Profile Section */}
