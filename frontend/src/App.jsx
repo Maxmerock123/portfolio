@@ -28,8 +28,8 @@ function App() {
         </div>
 
         {/* Profile Section */}
-        <div className="flex flex-row flex-wrap items-center justify-around text-white m-28">
-          <div className="max-w-[500px] max-h-[300px]flex flex-col justify-center items-center p-[5vh]  bg-stone-100 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20">
+        <div className="flex flex-row flex-wrap items-center justify-around text-white m-28 ">
+          <div className="max-w-[500px] max-h-[300px]flex flex-col justify-center items-center p-[5vh]  bg-stone-100 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 animate-fade-up animate-once animate-delay-[400ms]">
             <p className="flex justify-center text-3xl font-bold text-transparent bg-gradient-to-r from-custom-orange-1 to-custom-orange-2 bg-clip-text">
               Ratchatorn Makmool
             </p>
@@ -45,12 +45,12 @@ function App() {
             </div>
           </div>
           <div>
-            <img className="w-[500px] h-[500px] " />
+            <img className="w-[500px] h-[500px] animate-fade-up animate-once animate-delay-[800ms]" />
           </div>
         </div>
 
         {/* Experience Section */}
-        <div className="m-28">
+        <div className="m-28 animate-fade-up animate-once animate-delay-[1000ms]">
           <div className="flex justify-center">
             <p className="text-3xl font-bold text-transparent bg-gradient-to-r from-custom-orange-1 to-custom-orange-2 bg-clip-text">
               Experiences
@@ -66,7 +66,7 @@ function App() {
         </div>
 
         {/* Dev Skill Section */}
-        <div className="flex flex-row flex-wrap items-center justify-around text-white m-28">
+        <div className="flex flex-row flex-wrap items-center justify-around text-white m-28 animate-fade-up animate-once animate-delay-[400ms]">
           <div className="flex flex-col justify-center items-center px-[100px]  bg-stone-400 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20">
             <p className="m-5 text-3xl font-bold text-transparent bg-gradient-to-r from-custom-orange-1 to-custom-orange-2 bg-clip-text">
               Development Skills
