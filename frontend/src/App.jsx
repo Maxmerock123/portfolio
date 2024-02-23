@@ -13,7 +13,7 @@ function App() {
     <>
       {/* Header + Navbar */}
       {/* Default height == "5090px" */}
-      <body className="bg-cover bg-mesh-gradient h-[3850px] font-kanit">
+      <body className="bg-cover bg-stone-900 h-[100%] font-kanit">
         <div className="flex justify-center ">
           <div className="flex w-[80%] items-center justify-between m-2 text-white mt-5">
             <h1 className="text-3xl font-bold ">LOGO</h1>
@@ -24,7 +24,7 @@ function App() {
               <h3>Projects</h3>
               <h3>Contact me</h3>
             </div>
-            <button className="px-5 py-2 bg-slate-400 rounded-xl ">
+            <button className="px-5 py-2 bg-stone-400 rounded-xl ">
               button
             </button>
           </div>
@@ -42,7 +42,7 @@ function App() {
               Eu consequat amet exercitation enim consequat ea nulla.
             </p>
             <div className="flex justify-around m-2">
-              <button className="px-5 py-2 rounded-xl bg-slate-400">
+              <button className="px-5 py-2 rounded-xl bg-stone-400">
                 View Resume
               </button>
             </div>

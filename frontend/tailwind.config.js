@@ -5,6 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         "mesh-gradient": 'url("./images/mesh-gradient.png")',
+        "mesh-gradient-2": 'url("./images/mesh-gradient-2.png")',
       },
       colors: {
         "custom-orange-1": "#FFCC49",
