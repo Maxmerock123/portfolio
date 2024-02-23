@@ -15,7 +15,7 @@ function App() {
       <body className="bg-cover bg-stone-900 h-[100%] font-kanit">
         {/* Header + Navbar */}
         {/* Default height == "5090px" */}
-        <div className="sticky top-0 z-10 flex items-center justify-between px-5 py-2 text-white bg-stone-700">
+        <div className="sticky top-0 z-10 flex items-center justify-between px-10 py-2 text-white bg-opacity-50 rounded-b-[30px] bg-stone-700 backdrop-blur-lg">
           <h1 className="text-3xl font-bold">LOGO</h1>
           <div className="flex gap-5">
             <h3>About me</h3>
