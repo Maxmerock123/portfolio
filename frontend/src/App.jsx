@@ -12,7 +12,8 @@ function App() {
   return (
     <>
       {/* Header + Navbar */}
-      <body className="bg-cover bg-mesh-gradient h-[5090px] font-kanit">
+      {/* Default height == "5090px" */}
+      <body className="bg-cover bg-mesh-gradient h-[3850px] font-kanit">
         <div className="flex justify-center ">
           <div className="flex w-[80%] items-center justify-between m-2 text-white mt-5">
             <h1 className="text-3xl font-bold ">LOGO</h1>
