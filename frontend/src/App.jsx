@@ -5,6 +5,7 @@ import "./App.css";
 import SkillCard from "./components/SkillCard";
 import ProjectCard from "./components/ProjectCard";
 import ExperienceCard from "./components/ExperienceCard";
+import experienceData from "./data/experienceData";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -55,9 +56,13 @@ function App() {
               Experiences
             </p>
           </div>
-          <ExperienceCard />
-          <ExperienceCard />
-          <ExperienceCard />
+          {experienceData.map((exp) => (
+            <ExperienceCard
+              key={exp.name}
+              name={exp.name}
+              detail={exp.detail}
+            />
+          ))}
         </div>
 
         {/* Dev Skill Section */}
