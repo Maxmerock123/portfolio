@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import SkillCard from "./components/SkillCard";
 import ProjectCard from "./components/ProjectCard";
+import ExperienceCard from "./components/ExperienceCard";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,7 +28,7 @@ function App() {
         </div>
 
         {/* Profile Section */}
-        <div className="flex flex-row flex-wrap items-center justify-around m-10 text-white">
+        <div className="flex flex-row flex-wrap items-center justify-around text-white m-28">
           <div className="max-w-[400px] max-h-[100px]flex flex-col justify-center items-center p-[5vh]  bg-gray-400 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20">
             <p className="text-3xl font-bold text-transparent bg-gradient-to-r from-custom-orange-1 to-custom-orange-2 bg-clip-text">
               Ratchatorn Makmool
@@ -51,36 +52,19 @@ function App() {
         </div>
 
         {/* Experience Section */}
-        <div>
+        <div className="m-28">
           <div className="flex justify-center">
             <p className="text-3xl font-bold text-transparent bg-gradient-to-r from-custom-orange-1 to-custom-orange-2 bg-clip-text">
               Experiences
             </p>
           </div>
-          <div className="flex flex-wrap justify-around ">
-            <div className="flex flex-wrap items-center m-10">
-              <img className="bg-slate-500 aspect-ratio-video w-[40vh] h-[20vh] "></img>
-              <p className="w-[300px] text-white m-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam,
-              </p>
-            </div>
-          </div>
-          <div className="flex flex-wrap justify-around ">
-            <div className="flex items-center m-5">
-              <img className="bg-slate-500 aspect-ratio-video w-[40vh] h-[20vh]"></img>
-              <p className="w-[300px] text-white m-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam,
-              </p>
-            </div>
-          </div>
+          <ExperienceCard />
+          <ExperienceCard />
+          <ExperienceCard />
         </div>
 
         {/* Dev Skill Section */}
-        <div className="flex flex-row flex-wrap items-center justify-around m-10 text-white">
+        <div className="flex flex-row flex-wrap items-center justify-around text-white m-28">
           <div className="w-[750px] max-h-[500px] flex flex-col justify-center items-center p-[5vh]  bg-gray-400 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20">
             <p className="m-5 text-3xl font-bold text-transparent bg-gradient-to-r from-custom-orange-1 to-custom-orange-2 bg-clip-text">
               Dev Skills
@@ -104,13 +88,23 @@ function App() {
         </div>
 
         {/* Project Section */}
-        <div className="flex items-center justify-center ">
-          <div className="flex flex-wrap justify-center w-[50%] gap-5 m-10 text-white flex-around">
+        <div className="flex flex-col items-center">
+          <div>
+            <p className="text-3xl font-bold text-transparent bg-gradient-to-r from-custom-orange-1 to-custom-orange-2 bg-clip-text">
+              Projects
+            </p>
+          </div>
+          <div className="flex flex-wrap justify-center w-[50%] gap-10 m-10 text-white flex-around">
             <ProjectCard />
             <ProjectCard />
             <ProjectCard />
             <ProjectCard />
           </div>
+        </div>
+
+        {/* Footer */}
+        <div className="w-[100%] h-[500px] flex flex-col justify-center items-center p-[5vh]  bg-gray-400 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20">
+          reader
         </div>
       </body>
     </>
